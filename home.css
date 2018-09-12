@@ -1,0 +1,32 @@
+/*
+This is how you do code comments in CSS
+
+Again, more CSS tags/reference can be found t WWW.W3SCHOOLS.COM
+
+ */
+body
+{
+    background-image: url("img/grid.jpg");
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+#textExamples
+{
+    background-image: linear-gradient(to right, red , yellow);
+    /* background-color: black;
+    color: white;
+     */
+}
+
+
+hl
+{
+    color: chartreuse;
+    text-align: center;
+}
+
+p
+{
+    color: white;
+}
