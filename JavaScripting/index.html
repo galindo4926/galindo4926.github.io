@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Coffee NO! Java(script)</title>
+    <!-- Link CSS and Javascript files to the current HTML document-->
+    <link rel="stylesheet" href="home.css" type="text/css">
+    <script src="myScript.js"></script>
+</head>
+<body>
+<h1 id="banner">Mr.K's BONANZA of of Javascript FUN!</h1>
+<p id="intro"> I just want ot talk about FAFAFA FRIDAY!!!</p>
+<br><br>
+<p id="main">This is the MAIN paragraph area, location. Not secondary, MAIN! man</p>
+<br><br>
+<!-- lets make a button to replace text on the HTML document-->
+<button type="button" onclick="document.getElementById('intro').innerHTML='IT IS FRIDAY MY DUDES.'">MAGIC!@#</button>
+<button type="button" onclick="document.getElementById('intro').innerHTML='I just want to talk about FAFAFA FRIDAY!!!'">RESET</button>
+<!-- use buttons to modify text size s well as color -->
+<button type="button" onclick="document.getElementById('main').style.fontSize='20px'">20 pixels</button>
+<button type="button" onclick="document.getElementById('main').style.fontSize='23px'">23 pixels</button>
+<button type="button" onclick="document.getElementById('main').style.fontSize='24px'">24 pixels</button>
+<button type="button" onclick="document.getElementById('main').style.fontSize='25px'">25 pixels</button>
+<button type="button" onclick="document.getElementById('main').style.fontSize='30px'">30 pixels</button>
+<br><br>
+<button type="button" onclick="document.getElementById('main').style.color='blue'">BLUE</button>
+<button type="button" onclick="document.getElementById('main').style.color='red'">RED</button>
+<button type="button" onclick="document.getElementById('main').style.color='green'">GREEN</button>
+<button type="button" onclick="document.getElementById('main').style.color='blue'">BLUE</button>
+<br><br>
+<p id="output">Javascript Results will appear here! (~_~)</p>
+<button type="button" onclick="document.getElementById('output').innerHTML=addNumbers(23,33)">Add Numbers</button>
+<button type="button" onclick="document.getElementById('output').innerHTML=mathOps(3,4)">Add Numbers</button>
+</body>
+</html>
