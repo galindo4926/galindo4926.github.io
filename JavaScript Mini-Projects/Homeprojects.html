@@ -6,16 +6,30 @@
     <script src="myownscript.js"></script>
 </head>
 <body>
-<img id="weather" src="myownscript.js" height="75">
-<form name="TemperatureBug">
-    <h4>Results for Conditional Statements</h4>
+<img id="weather" src="" height="75">
+<form name="Conditional">
+    <h4>Temperature Bug</h4>
+    <br><br>
+    please type # of degrees to show: <input type="text" name="degrees">
     <br><br>
     Result: <input type="text" name="result" readonly="true" placeholder="...waiting" size="10">
-    <button type="button" onclick="document.TemperatureBug.result.value=degrees()">Degrees</button>
+    <input type="text" readonly="true" style="...">
+    <button type="button" onclick="document.Conditional.result.value=degrees()">Season</button>
+
 
 
 
 </form>
+<br><br>
 
+<form name="project3">
+    <h4>Grade converter!!</h4>
+    <br><br>
+    Please type a numeric score to convert: <input type="text" name="num1">
+    <br>
+    <button type="button" onclick="document.project3.result.value=assignGrade()">Convert!</button>
+    <br><br>
+    <input type="text" readonly="true" name="result" style="border-style: none">
+</form>
 </body>
 </html>
