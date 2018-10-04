@@ -4,11 +4,29 @@
 
 function season()
 {
-    var degrees = Number(document.getElementById('weather').src="img/summer.gif");
-    if (degrees >= 95)
+    var degrees = Number(document.conditional.degrees.value);
+    if (degrees >= 81)
     {
-        return "Summer"; 
+        return "Summer";document.getElementById("image").src="img/beach.jpg";
     }
+    else if (degrees >= 64)
+    {
+        return "Spring";
+    }
+    else if (degrees >= 43)
+    {
+        return "Autumn";document.getElementById("image").src="img/fall.jpg"
+    }
+    else if (degrees >= 12)
+    {
+        return "Winter";
+    }
+    else if (degrees >= -1)
+    {
+        return "SUBZERO";
+    }
+
+
 }
 
 function assignGrade()
