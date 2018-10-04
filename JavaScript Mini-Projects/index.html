@@ -16,12 +16,12 @@
 </form>
 <br><br><br>
 <form name="project1">
-    <img name="image
+    <img name="image+
     first number <input type="text name="input1" placeholder="type 1st number here">
     <br>
         Second number: <input type="text" name="input2" placeholder="type 2nd number here">
     <br>
-    Result: <input type="text" name="result" readonlyly="true" placeholder="...waiting" size="50">
+    Result: <input type="text" name="result" randomly="true" placeholder="...waiting" size="50">
     <br><br><br>
     <button type="button" onclick="document.project1.result.value=greaterNum()">GreaterNum</button>
 
@@ -59,6 +59,16 @@
     <button type="button" onclick="document.project4.result.value=pluralize()">Convert!</button>
     <br><br>
     <input type="text" readonly="true" name="result" style="border-style: none">
+</form>
+<form name="project5">
+    <select id="activities">
+        <option value="dog">Dog</option>
+        <option value="cat">Cat</option>
+        <option value="woof">Woof</option>
+    </select>
+    <br><br>
+    <button type="button" onclick="document.project5.result.value=animalReport()">ANIMAL</button>
+    <input id="result">
 </form>
 </body>
 </html>

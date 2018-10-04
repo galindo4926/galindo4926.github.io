@@ -222,3 +222,24 @@ function pluralize()
         return quantity + " " + noun;
     }
 }
+
+function animalReport()
+{
+//get 'value' from dropBox
+    var animal=document.getElementById('activities').value;
+
+    //return animal;
+    if (animal == "dog")
+    {
+        return "woof woof woof";
+    }
+    else if(animal=="cat")
+    {
+        return "get out of here cat. go home";
+    }
+    else if (animal =="woof")
+    {
+        return "hello, my name jeff";
+    }
+
+}

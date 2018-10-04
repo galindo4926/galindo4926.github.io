@@ -2,25 +2,15 @@
 
  */
 
-function degrees()
-var degrees =
+function season()
+{
+    var degrees = Number(document.getElementById('weather').src="img/summer.gif");
+    if (degrees >= 95)
+    {
+        return "Summer"; 
+    }
+}
 
-
-
-/*
-MINI Project 3
-TASK: Write a function named 'assignGrade' that:
-    -Takes 1 argument, a numeric score
--Return a grade for the score, either A, B, C, D, or F+
--Call that function for a few different scores and log the result.
-    HTML:
-() Form HTML
-() Input field
-() Button
-() Result field
-JavaScript:
-    () See 'HelloWorld' code, but the with numbers
-*/
 function assignGrade()
 {
     //capture a score from HTML
@@ -33,3 +23,20 @@ function assignGrade()
     {
         return 'B';
     }  //FINISH IT!!! MORTAL KOMBAT!
+    else if (score >= 70)
+    {
+        return 'C';
+    }
+    else if (score >= 60)
+    {
+        return 'D';
+    }
+    else if (score >= 50)
+    {
+        return 'F';
+    }
+    else if (score >= 0)
+    {
+        return 'NO CREDIT';
+    }
+}
