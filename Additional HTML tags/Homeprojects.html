@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>HomeProjects</title>
+    <script src="myownscript.js"></script>
+</head>
+<body>
+<img id="weather" src="img/beach.JPG" height="75">
+<form name="conditional">
+    <h4>TemperatureBug</h4>
+    <br><br>
+    temperature: <input type="text" name="degrees">
+    <button type="button" onclick="document.conditional.result.value=season()">Season</button>
+    <br><br>
+   Season: <input type="text" name="result" readonly="true" placeholder="...waiting" size="30">
+
+<br><br><br>
+
+
+</form>
+
+<form name="calories">
+    <h4>Calorie Counter</h4>
+    <br><br>
+    Activity: <input type="text" name="actions">
+    <button type="button" onclick="document.calories.result.value=CalorieCounter()">CalorieCounter</button>
+    <br><br>
+    <input type="text" name="result" readonly="true" placeholder="...waiting" size="30">
+
+</form>
+<form name="project3">
+    <h4>Grade converter!!</h4>
+    <br><br>
+    Please type a numeric score to convert: <input type="text" name="num1">
+    <br>
+    <button type="button" onclick="document.project3.result.value=assignGrade()">Convert!</button>
+    <br><br>
+    <input type="text" readonly="true" name="result" style="border-style: none">
+</form>
+</body>
+</html>
